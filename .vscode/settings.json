@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/28a00b86-0477-4248-a22c-607b6e2a7504/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/portfoliomattia",
+    "appService.deploySubpath": "."
+}

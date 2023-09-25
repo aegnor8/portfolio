@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/css-circular-prog-bar.css">
+    <title>
+        <%= title %>
+    </title>
+</head>
+
+<body>
+    <%- include('include/nav') %>
+
+
+        <!-- Contenuto specifico della pagina -->
+
+        <!-- contact section -->
+
+        <section class="contact_section layout_padding">
+
+            <div class="container">
+                <div class="d-flex justify-content-center d-md-block">
+                    <h2>
+                        Contact Us
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <form action="">
+                            <div class="contact_form-container">
+                                <div>
+                                    <div>
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                    <div>
+                                        <input type="email" placeholder="Email">
+                                    </div>
+                                    <div>
+                                        <input type="text" placeholder="Phone Number">
+                                    </div>
+                                    <div class="mt-5">
+                                        <input type="text" placeholder="Message">
+                                    </div>
+                                    <div class="mt-5 d-flex justify-content-center justify-content-sm-start">
+                                        <button type="submit">
+                                            Send
+                                        </button>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact_img-box">
+                            <img src="images/contact.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end contact section -->
+        <!-- info section -->
+        <section class="info_section">
+            <div class="container ">
+                <div class="row custom_border-btm pb-4">
+                    <div class="col-md-4 info_logo">
+                        <h2>
+                            JD
+                        </h2>
+                        <p>
+                            There are many variations of passages of Lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected humour, or
+                        </p>
+                    </div>
+                    <div class="col-md-4 info_address">
+                        <h5>
+                            Address
+                        </h5>
+                        <p>
+                            passages of Lorem Ipsum available, but the majority have
+                        </p>
+                        <p>
+                            (+71) 1234567890
+                        </p>
+                        <p>
+                            demo@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-md-4 info_news">
+                        <h5>
+                            Newsletter
+                        </h5>
+                        <form action="">
+                            <div>
+                                <input type="email" placeholder="Enter your email">
+                            </div>
+                            <div>
+                                <button type="submit">
+                                    Subscribe
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+
+                <div>
+                    <div class="info_social">
+                        <div>
+                            <a href="">
+                                <img src="images/fb.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="images/twitter.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="images/linkedin.png" alt="">
+                            </a>
+                        </div>
+                        <div>
+                            <a href="">
+                                <img src="images/insta.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- endsss info section -->
+
+        <!-- end contact section -->
+
+        <%- include('include/footer') %>
+</body>
+
+</html>
