@@ -156,6 +156,17 @@ a:focus {
   align-items: center;
 }
 
+.hero_img-box {
+  width: 200px;
+  height: 300px;
+  border-radius: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+
 .number-container {
   position: absolute;
   top: 34%;
@@ -404,7 +415,25 @@ a:focus {
   margin-left: 2.5%;
 }
 
+.info_section .custom_border-btm {
+  display: flex;
+  align-items: center;
+}
 
+.info_logo {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.info_logo h2 {
+  margin-bottom: 10px;
+}
+
+.info_address {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
 
 /* end contact section */
 /* info section */
@@ -467,6 +496,15 @@ a:focus {
   justify-content: space-between;
   width: 150px;
   margin: 30px auto;
+}
+
+.info_address a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.info_address a:hover {
+  color: #00fc43;
 }
 
 /* end info section */
