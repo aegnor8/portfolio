@@ -16,46 +16,39 @@
 
 <body>
     <%- include('include/nav') %>
-
-
-        <!-- Contenuto specifico della pagina -->
-
         <!-- contact section -->
-
         <section class="contact_section layout_padding">
 
             <div class="container">
                 <div class="d-flex justify-content-center d-md-block">
                     <h2>
-                        Contact Us
+                        Contact Mattia
                     </h2>
                 </div>
                 <div class="row">
                     <div class="col-md-6">
-                        <form action="">
-                            <div class="contact_form-container">
-                                <div>
-                                    <div>
-                                        <input type="text" placeholder="Name">
-                                    </div>
-                                    <div>
-                                        <input type="email" placeholder="Email">
-                                    </div>
-                                    <div>
-                                        <input type="text" placeholder="Phone Number">
-                                    </div>
-                                    <div class="mt-5">
-                                        <input type="text" placeholder="Message">
-                                    </div>
-                                    <div class="mt-5 d-flex justify-content-center justify-content-sm-start">
-                                        <button type="submit">
-                                            Send
-                                        </button>
-                                    </div>
-                                </div>
-
+                        <form action="/invia-form" method="POST">
+                            <!-- Campi del form -->
+                            <div>
+                                <input type="text" name="firstName" placeholder="First Name">
                             </div>
-
+                            <div>
+                                <input type="text" name="lastName" placeholder="Last Name">
+                            </div>
+                            <div>
+                                <input type="text" name="contactNumber" placeholder="Contact Number">
+                            </div>
+                            <div>
+                                <input type="email" name="email" placeholder="Email">
+                            </div>
+                            <div class="mt-5">
+                                <input type="text" name="message" placeholder="Message">
+                            </div>
+                            <div class="mt-5 d-flex justify-content-center justify-content-sm-start">
+                                <button type="submit">
+                                    Send
+                                </button>
+                            </div>
                         </form>
                     </div>
                     <div class="col-md-6">
@@ -73,7 +66,7 @@
                 <div class="row custom_border-btm pb-4">
                     <div class="col-md-4 info_logo">
                         <h2>
-                            JD
+                            mc
                         </h2>
                         <p>
                             There are many variations of passages of Lorem Ipsum available, but the majority have
@@ -91,23 +84,8 @@
                             (+71) 1234567890
                         </p>
                         <p>
-                            demo@gmail.com
+                            mcargani@my.centennialcollege.ca
                         </p>
-                    </div>
-                    <div class="col-md-4 info_news">
-                        <h5>
-                            Newsletter
-                        </h5>
-                        <form action="">
-                            <div>
-                                <input type="email" placeholder="Enter your email">
-                            </div>
-                            <div>
-                                <button type="submit">
-                                    Subscribe
-                                </button>
-                            </div>
-                        </form>
                     </div>
 
                 </div>
@@ -139,9 +117,7 @@
             </div>
         </section>
         <!-- endsss info section -->
-
         <!-- end contact section -->
-
         <%- include('include/footer') %>
 </body>
 

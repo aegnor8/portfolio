@@ -148,6 +148,8 @@ a:focus {
 
 /* hero section */
 .hero_section-container {
+  padding-top: 140px;
+  padding-bottom: 200px;
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -180,10 +182,12 @@ a:focus {
 .hero_section-container .hero_img-box {
   width: 42%;
   margin-top: -45px;
+  padding: 10px 20px;
 }
 
 .hero_section-container .hero_img-box img {
   width: 100%;
+  padding: 10px 20px;
 }
 
 .hero_section-container .hero_detail-box {
@@ -270,15 +274,16 @@ a:focus {
   transform: translateY(0);
   transition: all .7s;
   padding-bottom: 50px;
+   transition: all 0.7s, background-color 0.3s;
 }
 
 .practice_box:hover {
-  transform: translateY(-150px);
+  transform: translateY(-150px) scale(1.2);
   cursor: pointer;
 }
 
 .practice_box:hover .practice_img-box {
-  background-color: #00fc43;
+  background-color: white;
 }
 
 .practice_img-box {
@@ -288,17 +293,15 @@ a:focus {
   width: 225px;
   height: 295px;
   border-radius: 90px;
-  background-color: #363636;
-
+  background-color: white;
 }
-
 
 .practice_box h4 {
   margin-top: 15px;
 }
 
 .practice_img-box img {
-  width: 120px;
+  width: 180px;
 }
 
 .practice_detail p {

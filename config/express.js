@@ -22,7 +22,10 @@ module.exports = ()=>{
     app.use(methodOverride())
     app.set('views', './app/views')
     app.set('view engine', 'ejs')
-    
+    app.post('/invia-form', (req, res) => {
+        res.redirect('/');
+    });
+
     //require('../app/routes/index.server.routes.js')(app)
     app.use(express.static('./public'))
     app.use(express.static('./node_modules'))
