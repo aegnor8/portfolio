@@ -7,11 +7,9 @@
 */
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #000205;
 }
-
-
 
 h1,
 h2,
@@ -77,14 +75,10 @@ h4 {
   align-items: center;
 }
 
-
-
-
 /*header section*/
 .top_container {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
-
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-link {
   padding: 10px 20px;
@@ -92,8 +86,6 @@ h4 {
   text-align: center;
   text-transform: uppercase;
 }
-
-
 
 a,
 a:hover,
@@ -116,8 +108,6 @@ a:focus {
   height: auto;
 }
 
-
-
 .custom_nav-container .nav_search-btn {
   background-image: url(../images/search-icon.png);
   background-size: 22px;
@@ -135,8 +125,6 @@ a:focus {
   color: #00fc43;
   font-weight: bold;
 }
-
-
 
 .custom_nav-container {
   z-index: 99999;
@@ -174,7 +162,6 @@ a:focus {
   overflow: hidden;
 }
 
-
 .number-container {
   position: absolute;
   top: 34%;
@@ -211,7 +198,6 @@ a:focus {
 
 .hero_section-container .hero_detail-box {
   width: 58%;
-
 }
 
 .hero_section-container .hero_detail-box .hero_detail-container {
@@ -222,8 +208,6 @@ a:focus {
 .hero_section-container .hero_detail-box .hero_detail-container p {
   margin: 35px 0 50px 0;
 }
-
-
 
 .carousel-control-prev,
 .carousel-control-next {
@@ -244,8 +228,6 @@ a:focus {
   background-color: #464646;
 }
 
-
-
 .carousel-control-prev {
   background-image: url(../images/left-arrow.png);
   left: 45px;
@@ -261,7 +243,6 @@ a:focus {
 /* about section */
 .about_section {
   background-color: #f8faf9;
-
 }
 
 .about_section .row {
@@ -279,6 +260,16 @@ a:focus {
 /* end about section */
 
 /* practice section */
+
+.practice_box h4 {
+  color: black;
+  text-decoration: none;
+}
+
+.practice_container a:hover .practice_box h4 {
+  color: #00fc43;
+}
+
 .practice_container {
   display: flex;
   justify-content: center;
@@ -291,9 +282,9 @@ a:focus {
   align-items: center;
   margin: 200px 15px 0 15px;
   transform: translateY(0);
-  transition: all .7s;
+  transition: all 0.7s;
   padding-bottom: 50px;
-   transition: all 0.7s, background-color 0.3s;
+  transition: all 0.7s, background-color 0.3s;
 }
 
 .practice_box:hover {
@@ -335,14 +326,10 @@ a:focus {
   font-weight: bold;
 }
 
-
-
-
 /* end Practice section */
 
 /* welcome section */
 .welcome_section {
-
   background-color: #f8faf9;
 }
 
@@ -350,7 +337,7 @@ a:focus {
   padding: 100px 0;
 }
 
-.welcome_container>* {
+.welcome_container > * {
   margin-bottom: 35px;
 }
 
@@ -360,7 +347,7 @@ a:focus {
 
 .welcome_container h4,
 .welcome_container p {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .welcome_section::before {
@@ -454,7 +441,7 @@ a:focus {
 
 .info_logo h2 {
   color: #00fc43;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .info_section .col-md-4 {
@@ -477,7 +464,7 @@ a:focus {
 }
 
 .info_news input::placeholder {
-  opacity: .4;
+  opacity: 0.4;
 }
 
 .info_news button {
@@ -517,14 +504,12 @@ a:focus {
 
 /* end info section */
 
-
-
 /* footer section*/
 
 .footer_section {
   background-color: #fdfdfe;
   padding: 20px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .footer_section p {
@@ -537,4 +522,4 @@ a:focus {
   color: #000;
 }
 
-/* end footer section*/ 
+/* end footer section*/
